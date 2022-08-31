@@ -1,0 +1,21 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #202020;
+}
+
+* {
+	margin-top: 100px;
+	vertical-align: middle;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+h1 {
+	color: #a0a0a0;
+}
+
+.btn {
+	color: #000000;
+}
