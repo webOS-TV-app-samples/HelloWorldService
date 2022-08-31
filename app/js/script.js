@@ -4,7 +4,7 @@ function displayReponse() {
     method: "hello",
     parameters: { name: value },
     onFailure: showFailure,
-    onSuccess: showSuccess
+    onSuccess: showSuccess,
   });
 }
 
@@ -15,6 +15,7 @@ function showSuccess(res) {
 
 function showFailure(err) {
   document.getElementById("result1").innerHTML = "Failed!";
-  document.getElementById("result2").innerHTML = "(" + err.errorCode + ") " + err.errorText;
+  document.getElementById("result2").innerHTML =
+    "(" + err.errorCode + ") " + err.errorText;
   console.log(err);
 }
